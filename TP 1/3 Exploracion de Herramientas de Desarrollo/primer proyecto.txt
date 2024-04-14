@@ -1,0 +1,3 @@
+##Primer Proyecto: Crear un archivo simple de texto plano en
+VsCode y usar Git para hacer commit y push del archivo a un
+repositorio nuevo en tu cuenta de GitHub.
