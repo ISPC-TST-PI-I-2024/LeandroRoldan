@@ -1,1 +1,0 @@
-## resumen del tutorial de Git/GitHub.
