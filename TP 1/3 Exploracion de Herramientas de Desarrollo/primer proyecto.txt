@@ -1,3 +1,5 @@
 # Primer proyecto
 ## Proyecto integrador
 ### Alumno: Roldan Patricio Leandro
+
+Este archivo de texto plano es una toma en contacto con git y github
