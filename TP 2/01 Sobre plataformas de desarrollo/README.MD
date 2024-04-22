@@ -22,3 +22,24 @@ Arduino (PlatformIO): Arduino es una buena opción para proyectos de IoT simples
 
 MicroPython (RT-Thread): MicroPython es una mejor opción para proyectos de IoT más complejos que requieren un alto rendimiento, como dispositivos portátiles, sistemas de control industrial y redes de sensores.
 
+## ESP32
+
+Los modulos habituales son:
+
+-  Shield de comunicacion:
+    - Wifi y bluethoot, Suelen estar integrados en los esp32
+    - Ethernet
+    - GSM/GPRS
+
+- Shields de sensores:
+    - Sensores ambientales: temperatura, humedad, presión atmosférica y calidad del aire
+    - Sensores de movimiento: movimiento, aceleración y orientación
+    - Sensores de distancia
+
+- Actuadores:
+
+    - Relés
+    - Servomotores
+    - Leds: tanto individuales como matrices de LEDs
+
+
