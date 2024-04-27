@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "author": "Patricio Leandro Roldan",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-mini", "id": "bb1", "top": -155, "left": -31.2, "attrs": {} },
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -90,
+      "left": 99.8,
+      "attrs": { "color": "red", "flip": "" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -115.1,
+      "left": -41.7,
+      "rotate": 270,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -110.4,
+      "left": 85.85,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:2", "led1:A", "red", [ "h0" ] ],
+    [ "btn1:2.l", "esp:GND.1", "black", [ "h-9.4", "v211.2" ] ],
+    [ "r1:1", "bb1:15t.b", "", [ "$bb" ] ],
+    [ "r1:2", "bb1:15b.f", "", [ "$bb" ] ],
+    [ "led1:A", "bb1:16b.i", "", [ "$bb" ] ],
+    [ "led1:C", "bb1:15b.i", "", [ "$bb" ] ],
+    [ "esp:GND.2", "bb1:15t.a", "black", [ "v0" ] ],
+    [ "btn1:1.l", "bb1:1b.h", "", [ "$bb" ] ],
+    [ "btn1:2.l", "bb1:3b.h", "", [ "$bb" ] ],
+    [ "btn1:1.r", "bb1:1t.c", "", [ "$bb" ] ],
+    [ "btn1:2.r", "bb1:3t.c", "", [ "$bb" ] ],
+    [ "esp:13", "bb1:1b.j", "red", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
