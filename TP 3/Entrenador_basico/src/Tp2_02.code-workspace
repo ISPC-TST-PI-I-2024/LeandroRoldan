@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../../../TP 2/02 Ejercicios/Tp2_02"
+		},
+		{
+			"name": "tp2_02",
+			"path": "../../../TP 2/02 Ejercicios/Tp2_02/tp2_02"
+		},
+		{
+			"name": "Entrenador_basico",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"MicroPython.executeButton": [
+			{
+				"text": "▶",
+				"tooltip": "Run",
+				"alignment": "left",
+				"command": "extension.executeFile",
+				"priority": 3.5
+			}
+		],
+		"MicroPython.syncButton": [
+			{
+				"text": "$(sync)",
+				"tooltip": "sync",
+				"alignment": "left",
+				"command": "extension.execute",
+				"priority": 4
+			}
+		]
+	}
+}
