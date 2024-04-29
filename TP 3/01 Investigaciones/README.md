@@ -28,5 +28,24 @@ Ventajas de utilizar una función debounce
 
 Desventajas de utilizar una función debounce  
 - Retraso en la ejecución. Debido a que la función debounce espera un período de inactividad antes de ejecutar la función real, puede haber un ligero retraso entre el evento y la ejecución de nuestro callback. En algunas situaciones, esto puede no ser deseable, especialmente en casos en los que se requiere una respuesta inmediata.
-- Configuración adecuada. Determinar el tiempo de espera adecuado para una función debounce puede ser un desafío. Un tiempo de espera demasiado corto puede conducir a llamadas innecesarias, mientras que un tiempo de espera demasiado largo puede causar una respuesta lenta o retrasada.
+- Configuración adecuada. Determinar el tiempo de espera adecuado para una función debounce puede ser un desafío. Un tiempo de espera demasiado corto puede conducir a llamadas innecesarias, mientras que un tiempo de espera demasiado largo puede causar una respuesta lenta o retrasada.  
 
+---
+
+
+## Secuencia de Leds.  
+
+¿cómo funciona la secuencia de LEDs con botón?
+
+1.   Creamos una variable de llamada. Esta variable llevará un seguimiento del índice de la secuencia de LEDs. Y esta variable se incrementará siempre en 1
+2.   Utilizando el operador módulo (%) nos aseguramos de contar solo los elementos de la lista de leds. . Esto nos permite volver al inicio de la secuencia cuando llegamos al último LED.
+Ejemplo:  
+```
+  int sequenceIndex = 0;  
+if (digitalRead(btn1) == HIGH) {    
+    sequenceIndex = (sequenceIndex + 1) % numLEDs;   // Avanza la secuencia  
+    digitalWrite(leds[sequenceIndex], HIGH);    // Enciende el LED correspondiente a sequenceIndex    
+
+}
+```
+ 

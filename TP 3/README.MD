@@ -1,4 +1,4 @@
-![banner](.rsc\img\banner.png)
+![banner](https://github.com/ISPC-TST-PI-I-2024/LeandroRoldan/blob/main/TP%203/.rsc/img/banner.png)
 
 # TP #3: Transductores Binarios
 
@@ -34,9 +34,11 @@ Consideremos el siguiente entrenador digital con los siguientes componentes:
 - **led5 (LED 5)**: Conectado al pin GPIO4.
 - **led6 (LED 6)**: Conectado al pin GPIO0.
 - **led7 (LED 7)**: Conectado al pin GPIO2.
-- **led8 (LED 8)**: Conectado al pin GPIO15.
+- **led8 (LED 8)**: Conectado al pin GPIO15.  
 
-        Para este apartado se tuvo en cuenta el [Entrenador_basico](Entrenador_basico) y se configuraros los pines de la siguiente forma:
+
+Para este apartado se tuvo en cuenta el [Entrenador_basico](Entrenador_basico) y se configuraros los pines de la siguiente forma:  
+
 
 ```
     //Pulsadores e interruptores
