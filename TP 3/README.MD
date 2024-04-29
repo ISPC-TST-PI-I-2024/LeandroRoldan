@@ -85,19 +85,23 @@ Para este apartado se tuvo en cuenta el [Entrenador_basico](Entrenador_basico) y
 
 ---
 
-## Ejercicios a Resolver
 
-### Nivel Principiante
+
+# Contenido del repositorio
+
+En cada carpeta se encuentra una imagen con el codigo o archivo del mismo y un pequeño video donde se muestra el funcionamiento en Wokwi
+
+### Ejercicios Básicos
 1. **Encender un LED**: Activa el led1 conectado al GPIO18 de forma continua.
 2. **Parpadeo de un LED**: Programa el led1 para que parpadee con un intervalo de 1 segundo.
 3. **Secuencia de LEDs**: Crea una secuencia que encienda los LEDs del led1 al led3 de forma sucesiva, cada uno durante 500 ms.
 4. **Control de LED con botón**: Utiliza el btn1 para encender el led1 mientras se mantenga presionado.
 
-### Nivel Intermedio
+### Ejercicios Intermedio
 5. **Uso de botón con estado**: Cambia el estado del led1 cada vez que se presione y suelte el btn1.
 6. **Debounce de botón**: Implementa una lógica de debounce en el btn1 para evitar lecturas erróneas.
 7. **Control de múltiples LEDs con botones**: Usa btn1 y btn2 para controlar el estado de led1 y led2 respectivamente.
 8. **Uso de dip switches para control de LEDs**: Lee el estado de los dip switches sw1.1 a sw1.8 y refleja el estado en los led1 a led8.
 
-### Nivel Avanzado
+### Ejercicios Avanzado
 9. **Secuencia de LEDs con botón**: Crea una secuencia de luces que avance cada vez que se presione btn1.
