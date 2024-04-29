@@ -1,5 +1,3 @@
-
-
 //Pulsadores e interruptores
 const int btn1 = 34 ;
 const int btn2 = 39 ;
@@ -46,24 +44,16 @@ int estado1 = LOW ;            // Estado 1
 int estado2 = LOW ;            // Estado 2
 
   // Leer estado de los pulsadores y almacenar lectura
- estado1 = digitalRead(btn2);
- estado2 = digitalRead(btn1);
-
-
+  estado1 = digitalRead(btn2); estado2 = digitalRead(btn1);
 if (estado1 == HIGH)
 {
   digitalWrite(led2, HIGH);
 }
-else {
-  digitalWrite(led2, LOW);
-}
-Z
-
 
 
 if (estado2 == HIGH)
   {
     digitalWrite(led3, HIGH);
   }
-else {digitalWrite(led3, LOW);}
+
   }
