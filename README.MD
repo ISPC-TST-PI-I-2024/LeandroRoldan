@@ -1,6 +1,10 @@
 ![Banner](/.rsc/img/banner.png)
-Este monorepositorio tiene la finalidad de presentar los distintos trabajos practicos que semana a semana se estarán realizando en el Proyecto integrador  
+Este monorepositorio tiene la finalidad de presentar los distintos trabajos practicos que semana a semana se estarán realizando en el Proyecto integrador    
 
+---
+
+### Docente: *Gustavo Vera*
+### Alumno: *Patricio Leandro Roldan* 
 
 # Trabajos Prácticos:
 ## #1: Introducción al IoT
