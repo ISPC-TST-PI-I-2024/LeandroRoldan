@@ -2,19 +2,10 @@
 
 # TP #4
 
-## Ejercicio 2: Lectura de Sensores Resistivos. 
+Material de investigacion: 
+- leer entradas digitales en Arduino:  https://controlautomaticoeducacion.com/arduino/entradas-digitales/
 
----
+- Enviar y recibir datos a través del monitor serie: https://www.wexterhome.com/curso-arduino/enviar-datos-y-leer-puerto-serie/
 
-### Objetivos:
-1. Aprender a leer valores analógicos de un potenciómetro.
-2. Convertir valores analógicos en datos digitales comprensibles.
-3. Visualizar y monitorear cambios en el valor del potenciómetro a
-través del monitor serie.
-4. Simular la conexión y lectura de un sensor resistivo en Proteus.
-### Desarrollo:
-• Conecta un potenciómetro a un pin analógico del Arduino.  
-
-• Utiliza la función analogRead() para leer los valores del potenciómetro.  
-• Envía los valores leídos al monitor serie para visualizarlos.  
-• Implementa un sistema de visualización en Proteus para representar los valores leídos del potenciómetro.  
+- leer valores analógicos de un potenciómetro: https://eloctavobit.com/proyectos-tutoriales-arduino/entradas-analogicas-lectura-potenciometro
+- Cómo utilizar el sensor DHT11 para medir la temperatura y humedad con Arduino: https://programarfacil.com/blog/arduino-blog/sensor-dht11-temperatura-humedad-arduino/
