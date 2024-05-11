@@ -47,6 +47,6 @@ Actualidad laboral:</summary>
 ### Todos los repositorios contienen la siguiente estructura:  
 
 - A requisitos: Contiene documentos de requisitos proporcionados por el docente.  
-- B investigacion: Investigaciones realizadas por los estudiantes.  
-- C prototipo: Implementaciones específicas de la capa de almacenamiento.  
-- D presentacion: Incluye grabaciones y bitácoras de las reuniones de Scrum, así como las presentaciones de progreso.
+- B investigacion: Investigaciones realizadas por el estudiantes.  
+- C prototipo: Implementaciones específicas.  
+- D presentacion: descripcion de lo trabajado.
