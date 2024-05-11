@@ -30,6 +30,6 @@ Sea el siguiente modelo:
 ![code1](https://github.com/ISPC-TST-PI-I-2024/LeandroRoldan/blob/main/TP%203/C%20Prototipos/Ejercicios%20Basicos/Ejercicio%202/Screenshot_1.png) </details>
 <details><summary> Wokwi </summary>
 
-<iframe width="320" height="180" src="https://github.com/ISPC-TST-PI-I-2024/LeandroRoldan/blob/main/TP%203/C%20Prototipos/Ejercicios%20Basicos/Ejercicio%202/Ejercicio%202.mkv" title="ejercicio2" frameborder="0"></iframe>
+![wok1](https://youtu.be/_j6Uu-67tyo)
 
  </details>
