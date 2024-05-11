@@ -36,8 +36,17 @@ Actualidad laboral:</summary>
 
 
 ## Trabajos Prácticos con estructura ABP.
-## Repositorios:
-### [#1: Introducción al IoT](https://github.com/ISPC-TST-PI-I-2024/LeandroRoldan/tree/main/TP%201)
-### [#2 Fundamentos de Programación IoT y Módulos de Desarrollo](https://github.com/ISPC-TST-PI-I-2024/LeandroRoldan/tree/main/TP%202)
-### [#3: Transductores Binarios](https://github.com/ISPC-TST-PI-I-2024/LeandroRoldan/tree/main/TP%203)
-### [#4:Taller práctico sobre sensores y actuadores](https://github.com/ISPC-TST-PI-I-2024/LeandroRoldan/tree/main/TP%204)
+### Repositorios:
+- [#1: Introducción al IoT](https://github.com/ISPC-TST-PI-I-2024/LeandroRoldan/tree/main/TP%201)
+- [#2 Fundamentos de Programación IoT y Módulos de Desarrollo](https://github.com/ISPC-TST-PI-I-2024/LeandroRoldan/tree/main/TP%202)
+- [#3: Transductores Binarios](https://github.com/ISPC-TST-PI-I-2024/LeandroRoldan/tree/main/TP%203)
+- [#4:Taller práctico sobre sensores y actuadores](https://github.com/ISPC-TST-PI-I-2024/LeandroRoldan/tree/main/TP%204)
+
+---
+
+### Todos los repositorios contienen la siguiente estructura:  
+
+- A requisitos: Contiene documentos de requisitos proporcionados por el docente.  
+- B investigacion: Investigaciones realizadas por los estudiantes.  
+- C prototipo: Implementaciones específicas de la capa de almacenamiento.  
+- D presentacion: Incluye grabaciones y bitácoras de las reuniones de Scrum, así como las presentaciones de progreso.
